@@ -40,6 +40,11 @@ namespace Exercice12
                     System.Console.WriteLine();
                 }
             }
+
+            else
+            {
+                System.Console.WriteLine("Entrada de dados incorreta. Use apenas números inteiros.");
+            }
         }
     }
 }
