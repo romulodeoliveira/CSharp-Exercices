@@ -1,0 +1,15 @@
+/home/romulo/.programming/c#/w3resource/01-Basic/Exercice27/bin/Debug/net6.0/Exercice27
+/home/romulo/.programming/c#/w3resource/01-Basic/Exercice27/bin/Debug/net6.0/Exercice27.deps.json
+/home/romulo/.programming/c#/w3resource/01-Basic/Exercice27/bin/Debug/net6.0/Exercice27.runtimeconfig.json
+/home/romulo/.programming/c#/w3resource/01-Basic/Exercice27/bin/Debug/net6.0/Exercice27.dll
+/home/romulo/.programming/c#/w3resource/01-Basic/Exercice27/bin/Debug/net6.0/ref/Exercice27.dll
+/home/romulo/.programming/c#/w3resource/01-Basic/Exercice27/bin/Debug/net6.0/Exercice27.pdb
+/home/romulo/.programming/c#/w3resource/01-Basic/Exercice27/obj/Debug/net6.0/Exercice27.csproj.AssemblyReference.cache
+/home/romulo/.programming/c#/w3resource/01-Basic/Exercice27/obj/Debug/net6.0/Exercice27.GeneratedMSBuildEditorConfig.editorconfig
+/home/romulo/.programming/c#/w3resource/01-Basic/Exercice27/obj/Debug/net6.0/Exercice27.AssemblyInfoInputs.cache
+/home/romulo/.programming/c#/w3resource/01-Basic/Exercice27/obj/Debug/net6.0/Exercice27.AssemblyInfo.cs
+/home/romulo/.programming/c#/w3resource/01-Basic/Exercice27/obj/Debug/net6.0/Exercice27.csproj.CoreCompileInputs.cache
+/home/romulo/.programming/c#/w3resource/01-Basic/Exercice27/obj/Debug/net6.0/Exercice27.dll
+/home/romulo/.programming/c#/w3resource/01-Basic/Exercice27/obj/Debug/net6.0/ref/Exercice27.dll
+/home/romulo/.programming/c#/w3resource/01-Basic/Exercice27/obj/Debug/net6.0/Exercice27.pdb
+/home/romulo/.programming/c#/w3resource/01-Basic/Exercice27/obj/Debug/net6.0/Exercice27.genruntimeconfig.cache
