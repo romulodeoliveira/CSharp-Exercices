@@ -8,7 +8,7 @@ Sample Output:
 P Tutorial
 */
 
-namespace Exercice36
+namespace Exercice37
 {
     class Program
     {
