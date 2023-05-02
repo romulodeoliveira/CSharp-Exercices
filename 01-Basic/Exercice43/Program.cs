@@ -16,7 +16,6 @@ namespace Exercice43
         {
             System.Console.Write("Digite uma frase: ");
             string str = Console.ReadLine();
-            string test = "w";
 
             if (str[0] == 'w')
             {
