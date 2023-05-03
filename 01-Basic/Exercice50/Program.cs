@@ -8,7 +8,7 @@ Array1: [1, 2, 8]
 Após a rotação, o array se torna: [2, 8, 1]
 */
 
-namespace Exercice49
+namespace Exercice50
 {
     class Program
     {
