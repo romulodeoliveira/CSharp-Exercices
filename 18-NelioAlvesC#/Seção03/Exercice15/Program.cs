@@ -1,4 +1,6 @@
-﻿/*
+﻿using System;
+
+/*
 Escreva um programa que repita a leitura de uma senha até que ela seja válida. Para cada leitura de senha incorreta informada, escrever a mensagem "Senha Invalida". Quando a senha for informada corretamente deve ser impressa a mensagem "Acesso Permitido" e o algoritmo encerrado. Considere que a senha correta é o valor 2002.
 
 Exemplo:
@@ -28,38 +30,39 @@ Saída:
 Acesso Permitido
 */
 
-using System;
-
-class Program
+namespace  Exercice15
 {
-    static void Main(string[] args)
+    class Program
     {
-        int senhaCorreta = 2002;
-        int senhaDigitada;
-
-        do
+        static void Main(string[] args)
         {
-            Console.WriteLine("Digite a senha:");
-            string input = Console.ReadLine();
+            int senhaCorreta = 2002;
+            int senhaDigitada;
 
-            if (int.TryParse(input, out senhaDigitada))
+            do
             {
-                if (senhaDigitada == senhaCorreta)
+                Console.WriteLine("Digite a senha:");
+                string input = Console.ReadLine();
+
+                if (int.TryParse(input, out senhaDigitada))
                 {
-                    Console.WriteLine("Acesso Permitido");
-                    break; // Encerra o loop quando a senha é correta
+                    if (senhaDigitada == senhaCorreta)
+                    {
+                        Console.WriteLine("Acesso Permitido");
+                        break; // Encerra o loop quando a senha é correta
+                    }
+                    else
+                    {
+                        Console.WriteLine("Senha Inválida");
+                    }
                 }
                 else
                 {
                     Console.WriteLine("Senha Inválida");
                 }
-            }
-            else
-            {
-                Console.WriteLine("Senha Inválida");
-            }
-        } while (true);
+            } while (true);
 
-        Console.ReadLine();
+            Console.ReadLine();
+        }
     }
 }
