@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/romulo/.programming/c#/w3resource/18-NelioAlvesC#/Seção03/Exercice15/Exercice15.csproj": {}
+    "/home/romulo/.programming/c#/CSharpExercices/18-NelioAlvesC#/Seção03/Exercice15/Exercice15.csproj": {}
   },
   "projects": {
-    "/home/romulo/.programming/c#/w3resource/18-NelioAlvesC#/Seção03/Exercice15/Exercice15.csproj": {
+    "/home/romulo/.programming/c#/CSharpExercices/18-NelioAlvesC#/Seção03/Exercice15/Exercice15.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/romulo/.programming/c#/w3resource/18-NelioAlvesC#/Seção03/Exercice15/Exercice15.csproj",
+        "projectUniqueName": "/home/romulo/.programming/c#/CSharpExercices/18-NelioAlvesC#/Seção03/Exercice15/Exercice15.csproj",
         "projectName": "Exercice15",
-        "projectPath": "/home/romulo/.programming/c#/w3resource/18-NelioAlvesC#/Seção03/Exercice15/Exercice15.csproj",
+        "projectPath": "/home/romulo/.programming/c#/CSharpExercices/18-NelioAlvesC#/Seção03/Exercice15/Exercice15.csproj",
         "packagesPath": "/home/romulo/.nuget/packages/",
-        "outputPath": "/home/romulo/.programming/c#/w3resource/18-NelioAlvesC#/Seção03/Exercice15/obj/",
+        "outputPath": "/home/romulo/.programming/c#/CSharpExercices/18-NelioAlvesC#/Seção03/Exercice15/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/romulo/.nuget/NuGet/NuGet.Config"
@@ -43,7 +43,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -52,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.116/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/romulo/.dotnet/sdk/6.0.408/RuntimeIdentifierGraph.json"
         }
       }
     }
