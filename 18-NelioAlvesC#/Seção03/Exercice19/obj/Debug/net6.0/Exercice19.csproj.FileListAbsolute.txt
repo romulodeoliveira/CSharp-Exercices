@@ -1,0 +1,15 @@
+/home/romulo/.programming/c#/CSharpExercices/18-NelioAlvesC#/Seção03/Exercice19/bin/Debug/net6.0/Exercice19
+/home/romulo/.programming/c#/CSharpExercices/18-NelioAlvesC#/Seção03/Exercice19/bin/Debug/net6.0/Exercice19.deps.json
+/home/romulo/.programming/c#/CSharpExercices/18-NelioAlvesC#/Seção03/Exercice19/bin/Debug/net6.0/Exercice19.runtimeconfig.json
+/home/romulo/.programming/c#/CSharpExercices/18-NelioAlvesC#/Seção03/Exercice19/bin/Debug/net6.0/Exercice19.dll
+/home/romulo/.programming/c#/CSharpExercices/18-NelioAlvesC#/Seção03/Exercice19/bin/Debug/net6.0/Exercice19.pdb
+/home/romulo/.programming/c#/CSharpExercices/18-NelioAlvesC#/Seção03/Exercice19/obj/Debug/net6.0/Exercice19.csproj.AssemblyReference.cache
+/home/romulo/.programming/c#/CSharpExercices/18-NelioAlvesC#/Seção03/Exercice19/obj/Debug/net6.0/Exercice19.GeneratedMSBuildEditorConfig.editorconfig
+/home/romulo/.programming/c#/CSharpExercices/18-NelioAlvesC#/Seção03/Exercice19/obj/Debug/net6.0/Exercice19.AssemblyInfoInputs.cache
+/home/romulo/.programming/c#/CSharpExercices/18-NelioAlvesC#/Seção03/Exercice19/obj/Debug/net6.0/Exercice19.AssemblyInfo.cs
+/home/romulo/.programming/c#/CSharpExercices/18-NelioAlvesC#/Seção03/Exercice19/obj/Debug/net6.0/Exercice19.csproj.CoreCompileInputs.cache
+/home/romulo/.programming/c#/CSharpExercices/18-NelioAlvesC#/Seção03/Exercice19/obj/Debug/net6.0/Exercice19.dll
+/home/romulo/.programming/c#/CSharpExercices/18-NelioAlvesC#/Seção03/Exercice19/obj/Debug/net6.0/refint/Exercice19.dll
+/home/romulo/.programming/c#/CSharpExercices/18-NelioAlvesC#/Seção03/Exercice19/obj/Debug/net6.0/Exercice19.pdb
+/home/romulo/.programming/c#/CSharpExercices/18-NelioAlvesC#/Seção03/Exercice19/obj/Debug/net6.0/Exercice19.genruntimeconfig.cache
+/home/romulo/.programming/c#/CSharpExercices/18-NelioAlvesC#/Seção03/Exercice19/obj/Debug/net6.0/ref/Exercice19.dll
