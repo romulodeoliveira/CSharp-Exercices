@@ -1,0 +1,6 @@
+.idea/
+.run/
+.vscode/
+CSharpExercices.sln
+**/bin/
+**/obj/
