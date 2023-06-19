@@ -1,4 +1,6 @@
-﻿/*
+﻿using System;
+
+/*
 Escreva um programa C# Sharp para converter todos os valores de uma determinada matriz de valores mistos em valores de string.
 
 Exemplo de saída:
@@ -13,5 +15,27 @@ Value-> 25 :: Type- > System.String
 Value-> Anna :: Type-> System.String
 Value-> False :: Type-> System.String
 Value-> 4/15/2021 10:37:47 AM :: Type-> System.String
-Valor-> 112,22 :: Tipo->
+Valor-> 112,22 :: Tipo-> System.String
 */
+
+namespace Exercice80;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        object[] objectsArray = { 25, "Anna", false, DateTime.Parse("4/15/2021 10:37:47 AM"), 112.22 };
+
+        for (int i = 0; i < objectsArray.Length; i++)
+        {
+            Console.WriteLine($"{objectsArray[i]} -> {objectsArray[i].GetType()}");
+        }
+
+        Console.WriteLine(new string('-', 50));
+        
+        for (int i = 0; i < objectsArray.Length; i++)
+        {
+            Console.WriteLine($"{objectsArray[i]} -> {objectsArray[i].ToString().GetType()}");
+        }
+    }
+}
