@@ -1,0 +1,4 @@
+﻿/*
+Escreva um programa C# Sharp para classificar uma lista de elementos usando Bubble sort.
+De acordo com a Wikipedia, "Bubble sort, às vezes chamado de sinking sort, é um algoritmo de classificação simples que percorre repetidamente a lista a ser classificada, compara cada par de itens adjacentes e os troca se estiverem na ordem errada. A passagem pelo a lista é repetida até que nenhuma troca seja necessária, o que indica que a lista está classificada. O algoritmo, que é uma classificação por comparação, é nomeado pela forma como os elementos menores "bolham" no topo da lista. Embora o algoritmo seja simples, ele é muito lento e impraticável para a maioria dos problemas, mesmo quando comparado à classificação por inserção. Pode ser prático se a entrada estiver geralmente na ordem de classificação, mas pode ocasionalmente ter alguns elementos fora de ordem quase na posição."
+*/

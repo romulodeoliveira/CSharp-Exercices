@@ -1,0 +1,1 @@
+﻿// Escreva um programa C# Sharp para exibir certos valores da função x = y 2 + 2y + 1 (usando números inteiros para y , variando de -5 a +5).
