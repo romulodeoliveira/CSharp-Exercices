@@ -2,7 +2,7 @@
 
 // Escreva um programa C# Sharp para encontrar o valor mínimo de dois números dados, representados como string.
 
-namespace Exercice65
+namespace Exercice66
 {
     class Program
     {

@@ -62,7 +62,6 @@ namespace Exercice12
                     Console.WriteLine("Fora de intervalo");
                 }
             }
-
             else
             {
                 Console.WriteLine("Insira um número válido.");

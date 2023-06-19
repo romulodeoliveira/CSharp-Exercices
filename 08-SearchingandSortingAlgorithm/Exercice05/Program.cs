@@ -1,0 +1,5 @@
+﻿/*
+Escreva um programa C# Sharp para classificar uma lista de elementos usando Heap sort.
+Na ciência da computação, o heapsort (inventado por JWJ Williams em 1964) é um algoritmo de classificação baseado em comparação. Heapsort pode ser pensado como uma classificação de seleção aprimorada: como esse algoritmo, ele divide sua entrada em uma região classificada e não classificada e reduz interativamente a região não classificada extraindo o maior elemento e movendo-o para a região classificada. A melhoria consiste no uso de uma estrutura de dados heap em vez de uma pesquisa de tempo linear para encontrar o máximo.
+Embora um pouco mais lento na prática na maioria das máquinas do que um quicksort bem implementado, ele tem a vantagem de um tempo de execução O(n log n) de pior caso mais favorável. Heapsort é um algoritmo in-place, mas não é uma classificação estável.
+*/
