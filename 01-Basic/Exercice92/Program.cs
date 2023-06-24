@@ -15,3 +15,24 @@ Próximo número primo/Atual número primo: 43
 Número original: 4433
 Próximo número primo/Atual número primo: 4441
 */
+
+namespace Exercice92;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.Write("Digite um número: ");
+        int input = Convert.ToInt32(Console.ReadLine());
+
+        int nextPrimeNumber = input;
+
+        while (!Number.IsPrime(nextPrimeNumber))
+        {
+            nextPrimeNumber++;
+        }
+
+        Console.WriteLine($"{input} - {nextPrimeNumber}");
+    }
+}
+
