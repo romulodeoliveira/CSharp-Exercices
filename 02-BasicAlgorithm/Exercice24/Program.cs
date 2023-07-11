@@ -8,8 +8,38 @@ Exemplo de entrada :
 "PHP"
 
 Saída esperada :
-Pitão
-JavascriptIPT
-js
+PytHON
+JavascrIPT
+JS
 PHP
 */
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string[] inputs = { "Python", "Javascript", "js", "PHP" };
+
+        foreach (string input in inputs)
+        {
+            string result = ConvertLastThreeToUpper(input);
+            Console.WriteLine(result);
+        }
+    }
+
+    static string ConvertLastThreeToUpper(string input)
+    {
+        if (input.Length < 3)
+        {
+            return input.ToUpper();
+        }
+        else
+        {
+            string substring = input.Substring(input.Length - 3);
+            string convertedSubstring = substring.ToUpper();
+            return input.Substring(0, input.Length - 3) + convertedSubstring;
+        }
+    }
+}
