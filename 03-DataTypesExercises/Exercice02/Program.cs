@@ -22,7 +22,21 @@ namespace Exercice02
     {
         static void Main(string[] args)
         {
+            Console.Write("Insira um número: ");
+            int numero = int.Parse(Console.ReadLine());
 
+            Console.Write("Insira a largura desejada: ");
+            int largura = int.Parse(Console.ReadLine());
+
+            for (int i = largura; i >= 1; i--)
+            {
+                for (int j = 1; j <= i; j++)
+                {
+                    Console.Write(numero);
+                }
+
+                Console.WriteLine();
+            }
         }
     }
 }
