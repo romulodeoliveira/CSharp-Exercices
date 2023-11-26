@@ -10,3 +10,38 @@ Os números para a série GP:
 O tn termos de GP : 16.000000
 A Soma da série GP : 63.000000
 */
+
+using System;
+
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        double firstTerm = double.Parse(args[0]);
+        int numberOfTerms = int.Parse(args[1]);
+        double commonRatio = double.Parse(args[2]);
+
+        double[] terms = new double[numberOfTerms];
+        for (int i = 0; i < numberOfTerms; i++)
+        {
+            terms[i] = firstTerm * Math.Pow(commonRatio, i);
+        }
+
+        Console.WriteLine("Os números para a série GP:");
+        for (int i = 0; i < numberOfTerms; i++)
+        {
+            Console.WriteLine(terms[i]);
+        }
+
+        double tn = terms[numberOfTerms - 1];
+
+        double sum = 0;
+        for (int i = 0; i < numberOfTerms; i++)
+        {
+            sum += terms[i] / (1 - commonRatio);
+        }
+
+        Console.WriteLine("O tn termos de GP: {0:0.000000}", tn);
+        Console.WriteLine("A Soma da série GP: {0:0.000000}", sum);
+    }
+}
