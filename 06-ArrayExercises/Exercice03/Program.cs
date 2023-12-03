@@ -9,3 +9,30 @@ elemento - 2: 8
 Saída esperada :
 A soma de todos os elementos armazenados na matriz é : 15
 */
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Insira o número de elementos a serem armazenados na matriz: ");
+        int n = Convert.ToInt32(Console.ReadLine());
+
+        int[] array = new int[n];
+
+        for (int i = 0; i < n; i++)
+        {
+            Console.Write($"Elemento - {i}: ");
+            array[i] = Convert.ToInt32(Console.ReadLine());
+        }
+
+        int soma = 0;
+        foreach (int elemento in array)
+        {
+            soma += elemento;
+        }
+
+        Console.WriteLine($"A soma de todos os elementos armazenados na matriz é: {soma}");
+    }
+}
