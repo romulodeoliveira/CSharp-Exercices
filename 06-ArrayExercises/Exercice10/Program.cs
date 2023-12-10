@@ -14,3 +14,53 @@ Os elementos pares são:
 Os elementos ímpares são:
 25 47
 */
+
+using System;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Insira o número de elementos a serem armazenados na matriz: ");
+        int n = Convert.ToInt32(Console.ReadLine());
+
+        int[] array = new int[n];
+
+        for (int i = 0; i < n; i++)
+        {
+            Console.Write($"Elemento - {i}: ");
+            array[i] = Convert.ToInt32(Console.ReadLine());
+        }
+
+        List<int> pares = new List<int>();
+        List<int> impares = new List<int>();
+
+        foreach (int elemento in array)
+        {
+            if (elemento % 2 == 0)
+            {
+                pares.Add(elemento);
+            }
+            else
+            {
+                impares.Add(elemento);
+            }
+        }
+
+        Console.WriteLine("\nOs elementos pares são:");
+        ExibirArray(pares.ToArray());
+
+        Console.WriteLine("Os elementos ímpares são:");
+        ExibirArray(impares.ToArray());
+    }
+
+    static void ExibirArray(int[] array)
+    {
+        foreach (int elemento in array)
+        {
+            Console.Write($"{elemento} ");
+        }
+        Console.WriteLine();
+    }
+}
