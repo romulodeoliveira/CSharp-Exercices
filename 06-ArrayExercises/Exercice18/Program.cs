@@ -18,3 +18,35 @@ A matriz é :
 4 5 6
 7 8 9
 */
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int[,] matriz = new int[3, 3];
+
+        Console.WriteLine("Insira os elementos na matriz:");
+
+        for (int i = 0; i < 3; i++)
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                Console.Write($"elemento - [{i}],[{j}] : ");
+                matriz[i, j] = Convert.ToInt32(Console.ReadLine());
+            }
+        }
+
+        Console.WriteLine("\nA matriz é:\n");
+
+        for (int i = 0; i < 3; i++)
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                Console.Write(matriz[i, j] + " ");
+            }
+            Console.WriteLine();
+        }
+    }
+}
