@@ -13,3 +13,44 @@ A matriz é :
 3 4
 A adição dos elementos da diagonal esquerda é :5
 */
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Insira o tamanho da matriz quadrada: ");
+        int tamanho = Convert.ToInt32(Console.ReadLine());
+
+        int[,] matriz = new int[tamanho, tamanho];
+
+        Console.WriteLine("Insira os elementos da matriz:");
+        for (int i = 0; i < tamanho; i++)
+        {
+            for (int j = 0; j < tamanho; j++)
+            {
+                Console.Write($"elemento - [{i}],[{j}] : ");
+                matriz[i, j] = Convert.ToInt32(Console.ReadLine());
+            }
+        }
+
+        Console.WriteLine("A matriz é:");
+        for (int i = 0; i < tamanho; i++)
+        {
+            for (int j = 0; j < tamanho; j++)
+            {
+                Console.Write(matriz[i, j] + " ");
+            }
+            Console.WriteLine();
+        }
+
+        int somaDiagonalEsquerda = 0;
+        for (int i = 0; i < tamanho; i++)
+        {
+            somaDiagonalEsquerda += matriz[i, i];
+        }
+
+        Console.WriteLine($"A adição dos elementos da diagonal esquerda é: {somaDiagonalEsquerda}");
+    }
+}
