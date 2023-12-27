@@ -24,3 +24,72 @@ Definindo zero na matriz triangular superior
 4 5 0
 7 8 9
 */
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Insira o tamanho da matriz quadrada: ");
+        int tamanho = Convert.ToInt32(Console.ReadLine());
+
+        int[,] matriz = PreencherMatriz(tamanho);
+
+        Console.WriteLine("\nA matriz é:\n");
+        ExibirMatriz(matriz);
+
+        Console.WriteLine("\nDefinindo zero na matriz triangular superior:\n");
+        ImprimirTriangularSuperior(matriz);
+    }
+
+    static int[,] PreencherMatriz(int tamanho)
+    {
+        Console.WriteLine($"\nElementos na matriz ({tamanho}x{tamanho}):");
+
+        int[,] matriz = new int[tamanho, tamanho];
+
+        for (int i = 0; i < tamanho; i++)
+        {
+            for (int j = 0; j < tamanho; j++)
+            {
+                Console.Write($"elemento - [{i}],[{j}] : ");
+                matriz[i, j] = Convert.ToInt32(Console.ReadLine());
+            }
+        }
+
+        return matriz;
+    }
+
+    static void ImprimirTriangularSuperior(int[,] matriz)
+    {
+        int tamanho = matriz.GetLength(0);
+
+        for (int i = 0; i < tamanho; i++)
+        {
+            for (int j = 0; j < tamanho; j++)
+            {
+                if (j >= i)
+                    Console.Write(matriz[i, j] + " ");
+                else
+                    Console.Write("0 ");
+            }
+            Console.WriteLine();
+        }
+    }
+
+    static void ExibirMatriz(int[,] matriz)
+    {
+        int linhas = matriz.GetLength(0);
+        int colunas = matriz.GetLength(1);
+
+        for (int i = 0; i < linhas; i++)
+        {
+            for (int j = 0; j < colunas; j++)
+            {
+                Console.Write(matriz[i, j] + " ");
+            }
+            Console.WriteLine();
+        }
+    }
+}
